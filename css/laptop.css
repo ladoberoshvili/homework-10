@@ -1,0 +1,65 @@
+@media (max-width: 1025px) {
+    .section2 {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+    
+    .section2-image {
+        width: 960px;
+        height: 480px;
+    
+    }
+    
+    .section2-content {
+        width: 960px;
+        display: flex;
+        gap: 80px;
+    }
+    .section2-content h3 {
+          width: 150%;
+    }
+
+}
+
+@media (max-width: 835px) {
+    header {
+        padding:36px 24px;
+    
+    }
+    .section1_title {
+        font-size: 36px;
+    
+    }
+    .section2-image {
+        width: 696px;
+        height: 320px;
+    
+    }
+ 
+    .section2-content {
+        width: 696px;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .section2-content h3 {
+        width: 100%;
+  }
+  .section3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3-card {
+    width: 696px;
+    align-items: center;
+    gap: 16px;
+}
+footer {
+    flex-direction: column;
+    padding: 32px 24px;
+    row-gap: 24px;
+}
+
+}
